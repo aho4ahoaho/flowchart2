@@ -1,10 +1,10 @@
 import { Button } from "./button";
 import style from "./codeManager.module.scss";
-import { japaneseDateFormat } from "@/logic/dateFormat";
-import { importLocalFile } from "@/logic/fileHandler";
+import { japaneseDateFormat } from "../logic/dateFormat";
+import { importLocalFile } from "../logic/fileHandler";
 import React, { FormEvent } from "react";
-import { codeFormatter } from "@/logic/formatter";
-import { codeParser } from "@/logic/parser";
+import { codeFormatter } from "../logic/formatter";
+import { codeParser } from "../logic/parser";
 
 type Props = {
     className?: string;

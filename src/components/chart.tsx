@@ -5,8 +5,8 @@ import {
     ChartStyle,
     chartGenerator,
     chartGeneratorTest,
-} from "@/logic/chartGenerator";
-import { FunctionItem } from "@/logic/scope";
+} from "../logic//chartGenerator";
+import { FunctionItem } from "../logic//scope";
 import React from "react";
 
 type Props = {

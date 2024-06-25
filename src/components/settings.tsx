@@ -1,7 +1,7 @@
 import { Button } from "./button";
 import style from "./settings.module.scss";
-import { ChartGeneratorOption, ChartStyle } from "@/logic/chartGenerator";
-import { supportSystemChecker } from "@/logic/systemChecker";
+import { ChartGeneratorOption, ChartStyle } from "../logic/chartGenerator";
+import { supportSystemChecker } from "../logic/systemChecker";
 import React from "react";
 import Select from "react-select";
 
