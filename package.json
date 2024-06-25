@@ -12,7 +12,8 @@
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "react": "18",
-    "react-dom": "18"
+    "react-dom": "18",
+    "sass": "^1.77.6"
   },
   "devDependencies": {
     "@farmfe/cli": "^1.0.2",

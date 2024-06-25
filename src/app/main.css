@@ -1,0 +1,24 @@
+div.main {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .leftPanel,
+    .rightPanel {
+        height: 100%;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    .leftPanel {
+        flex-basis: 300px;
+        flex-grow: 2;
+    }
+
+    .rightPanel {
+        flex-basis: 300px;
+        flex-grow: 7;
+        overflow-x: hidden;
+    }
+}

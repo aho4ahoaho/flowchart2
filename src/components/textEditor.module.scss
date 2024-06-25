@@ -1,0 +1,28 @@
+div.editorContainer {
+    textarea.editor {
+        resize: none;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        overflow-y: hidden;
+    }
+}
+
+//サイズ測定用のダミー要素
+p.dummy {
+    visibility: hidden;
+    width: 300px;
+    background-color: aqua;
+    white-space: pre;
+    position: fixed;
+}
+
+p.dummy,
+textarea.editor {
+    font-size: large;
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    border: solid 1px #ccc;
+    border-radius: 0.25rem;
+}
