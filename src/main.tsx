@@ -1,5 +1,14 @@
+import styled from "@emotion/styled";
+
 export function Main() {
   return (
-    <p>Hello World</p>
+    <Text>Hello World</Text>
   );
 }
+
+const Text = styled.p({
+  color: 'red',
+  "&:hover": {
+    color: 'blue'
+  }
+})
